@@ -82,7 +82,7 @@ const Bookingscreen = ({ match }) => {
       setLoading(false);
     } catch (error) {
       setLoading(false);
-      Swal.fire("Oops", "Something went wrong", "error");
+      Swal.fire("Oops", "Something Went wrong", "error");
       console.error("Booking failed:", error.response.data.error);
     }
   };
